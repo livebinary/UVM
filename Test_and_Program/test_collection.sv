@@ -17,7 +17,7 @@ virtual function void start_of_simulation_phase(uvm_phase phase);
 endfunction: start_of_simulation_phase
 
 
-endclass  
+endclass
 
   
 

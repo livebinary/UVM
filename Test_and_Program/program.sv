@@ -5,7 +5,7 @@ import uvm_pkg::*;
 `include "test_collection.sv"
 
 initial begin
-   `uvm_info(get_name(), "message", UVM_NONE)
-    run_test();
+   `uvm_info(get_name(), "Executing Run Test", UVM_NONE)
+    run_test();  // Call Test
 end
 endprogram   
